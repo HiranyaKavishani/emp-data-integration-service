@@ -19,12 +19,12 @@
       ]
    }
 }</result>
-      <param name="EmployeeNumber" sqlType="STRING"/>
+      <param name="EmployeeNumber" sqlType="INTEGER"/>
    </query>
    
    <query id="AddEmployeeDetails" useConfig="Datasource">
       <sql>insert into Employees (EmployeeNumber, FirstName, LastName, Email, Salary) values(:EmployeeNumber,:FirstName,:LastName,:Email,:Salary)</sql>
-      <param name="EmployeeNumber" sqlType="STRING"/>
+      <param name="EmployeeNumber" sqlType="INTEGER"/>
       <param name="FirstName" sqlType="STRING"/>
       <param name="LastName" sqlType="STRING"/>
       <param name="Email" sqlType="STRING"/>
@@ -36,11 +36,11 @@
       <param name="FirstName" sqlType="STRING"/>
       <param name="Email" sqlType="STRING"/>
       <param name="Salary" sqlType="STRING"/>
-      <param name="EmployeeNumber" sqlType="STRING"/>
+      <param name="EmployeeNumber" sqlType="INTEGER"/>
    </query>
       <query id="DeleteEmployeeDetails" useConfig="Datasource">
       <sql>delete from Employees where EmployeeNumber=:EmployeeNumber</sql>
-      <param name="EmployeeNumber" sqlType="STRING"/>
+      <param name="EmployeeNumber" sqlType="INTEGER"/>
    </query>
    <operation name="GetEmployeeOp">
       <call-query href="GetEmployeeDetails">
