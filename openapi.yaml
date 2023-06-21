@@ -53,11 +53,11 @@ paths:
             examples:
               default:
                 value:
-                  EmployeeNumber: '1'
-                  FirstName: John
-                  LastName: Doe
-                  Email: JohnDoe@gmail.com
-                  Salary: '18500.0'
+                  EmployeeNumber: 14009
+                  FirstName: Johnson
+                  LastName: Matheyy
+                  Email: Johnsonmathey@gmail.com
+                  Salary: '19500.0'
                        
       responses:
         default:
