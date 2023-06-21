@@ -53,7 +53,7 @@ paths:
             examples:
               default:
                 value:
-                  EmployeeNumber: 14009
+                  EmployeeNumber: '14009'
                   FirstName: Johnson
                   LastName: Matheyy
                   Email: Johnsonmathey@gmail.com
